@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<meta charset="UTF-8" />
+	<style>
+		#more {display: none;}
+	</style>
+
+	<title>Shop</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,800,900" rel="stylesheet">
+</head>
+<body>
+	<div id="header" >
+		<div class="top">
+			<a href="shop.html" class="logo"><img src="img/shopping.png"></a>
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">About Us</a></li>
+				<li><a href="">Shop</a></li>
+				<li><a href="">Faq</a></li>
+				<li><a href="">Page</a></li>
+				<li><a href="">Contact</a></li>
+				<li><a href="" class="o"><img src="img/0.png"></a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<img src="img/bag.png" class="bag">
+			<div class="info">
+				<p class="one">Exclusive and Unique Products</p>
+				<p class="two">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna<span id="dots"></span><span id="more"> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</span></p>
+				<button onclick="myFunction()" id="myBtn">VIEW</button>
+
+				<script>
+					function myFunction() {
+						var dots = document.getElementById("dots");
+						var moreText = document.getElementById("more");
+						var btnText = document.getElementById("myBtn");
+
+						if (dots.style.display === "none") {
+							dots.style.display = "inline";
+							btnText.innerHTML = "VIEW"; 
+							moreText.style.display = "none";
+						}
+						else 
+						{
+							dots.style.display = "none";
+							btnText.innerHTML = "VIEW LESS"; 
+							moreText.style.display = "inline";
+						}
+					}
+				</script>
+			</div>
+		</div>
+	</div>
+	<div id="main">
+		<div class="container" >
+			<p class="welcome">WELCOME</p>
+			<p class="header">A leather goods brand that inspires elegance in</p>
+			<div class="fast">
+				<a href="#"><img src="img/car.png" class="car"></a>
+				<a href="#"><p class="fasth">Fast Delivery</p></a>
+				<p class="fastp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+			</div>
+			<div class="fast">
+				<a href="#"><img src="img/car.png" class="car"></a>
+				<a href="#"><p class="fasth">Fast Delivery</p></a>
+				<p class="fastp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+			</div>
+			<div class="fast">
+				<a href="#"><img src="img/car.png" class="car"></a>
+				<a href="#"><p class="fasth">Fast Delivery</p></a>
+				<p class="fastp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+			</div>
+			<p class="best">Best saler on weeks</p>
+			<p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+			<div class="general first">
+				<img src="img/gramophone.png" class="image">
+				<div class="overlay">
+					<div class="text"><a href="#">ADD TO CART</a></div>
+				</div>
+				<p class="name">Gramophone</p>
+				<p class="price">32.00 <span class="dollar">$</span></p>
+			</div>
+			<div class="general second" >
+				<img src="img/sportswear.png" class="image">
+				<div class="overlay">
+					<div class="text"><a href="#">ADD TO CART</a></div>
+				</div>
+				<p class="name"><a href="#">Sweatswear </a>Legacy</p>
+				<p class="price">16.00 <span class="dollar">$</span></p>
+			</div>
+			<div class="general third">
+				<img src="img/table.png" class="image">
+				<div class="overlay">
+					<div class="text"><a href="#">ADD TO CART</a></div>
+				</div>
+				<p class="name">Table</p>
+				<p class="price">6.00 <span class="dollar">$</span></p>	
+			</div>
+			<div class="general fourth">
+				<img src="img/leather.png" class="image">
+				<div class="overlay">
+					<div class="text"><a href="#">ADD TO CART</a></div>
+				</div>
+				<p class="name">Leather</p>
+				<p class="price">8.00 <span class="dollar">$</span></p>	
+			</div>
+			<div class="general fifth">
+				<img src="img/runwell.png" class="image">
+				<div class="overlay">
+					<div class="text"><a href="#">ADD TO CART</a></div>
+				</div>
+				<p class="name">Runwell</p>
+				<p class="price">26.00 <span class="dollar">$</span></p>	
+			</div>
+			<div class="general sixth">
+				<img src="img/decor.png" class="image">
+				<div class="overlay">
+					<div class="text"><a href="#">ADD TO CART</a></div>
+				</div>
+				<p class="name">Decor</p>
+				<p class="price">54.00 <span class="dollar">$</span></p>	
+			</div>
+			<p class="know">Be the first one to know</p>
+			<p class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+			<form>
+				<input type="email" class="email" required placeholder="Email" />
+				<button class="btn">JOIN NOW</button>
+			</form>
+		</div>
+	</div>
+	<div id="about">
+		<div class="container1">
+			<div class="shop">
+				<a href="#"><img src="img/logo.png"></a>
+				<p class="aboutp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+			</div>
+			<div class="sitemap">
+				<ul>
+					<li class="key"><a href="#">Sitemap</a></li>
+					<li><a href="#">What we do</a></li>
+					<li><a href="#">Who we are</a></li>
+					<li><a href="#">Projects</a></li>
+				</ul>
+			</div>
+			<div class="sitemap">
+				<ul>
+					<li class="key"><a href="#">Category</a></li>
+					<li><a href="#">Concreting</a></li>
+					<li><a href="#">Decorating</a></li>
+					<li><a href="#">Building</a></li>
+				</ul>
+			</div>
+			<div class="sitemap">
+				<ul>
+					<li class="key"><a href="#">Menu</a></li>
+					<li><a href="#">About us</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Projects</a></li>
+				</ul>
+			</div>
+			<div class="sitemap">
+				<ul>
+					<li class="key"><a href="#">Contact</a>Us</li>
+					<li><a href="#" ><img src="img/phone.png" class="phone">855-5564-65651</a></li>
+					<li><a href="#" ><img src="img/address.png" class="address">Adress streets City</a></li>
+					<li><a href="#"><img src="img/mail.png" class="mail">your.mail@domains.com</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<p>Copyrights <a href="">free-psd-templates.com</a></p>
+		<ul>
+			<li><a href="">Support</a></li>
+			<li><a href="">Contact Us</a></li>
+			<li><a href="">Disclaimer</a></li>
+			<li><a href="">Add More</a></li>
+		</ul>
+		<ul>
+			<li><a href=""><img src="img/facebook.png"></a></li>
+			<li><a href=""><img src="img/behance.png"></a></li>
+			<li><a href=""><img src="img/twitter.png"></a></li>
+			<li><a href=""><img src="img/instagram.png"></a></li>
+			<li><a href=""><img src="img/pinterest.png"></a></li>
+			<li><a href=""><img src="img/dribbble.png"></a></li>
+		</ul>
+		
+	</div>
+</body>
+</html>
